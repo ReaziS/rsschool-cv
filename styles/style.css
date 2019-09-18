@@ -16,7 +16,7 @@ header{
     font-family: futur;
     max-width: 1440px;
     max-height: 115px;
-
+    color:#494949;
     line-height: 22px;
     font-size: 17px;
 }
@@ -28,32 +28,42 @@ header{
     max-width: 1024px;
     border-bottom: 1px solid #F1F3F2;
 }
-.logo__index{
-    margin-left: 10px;
+.logo-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.menu{
+.logo {
+    font-size: 26px;
+}
+.logo-arroy {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.my__interests{
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
 }
-.menu ul{
+.my__interests ul{
     display: flex;
     justify-content: space-between;
     width: 500px;
 }
-.menu ul li {
+.my__interests ul li {
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
-.menu a{
+.my__interests a{
     text-decoration-color: red;
     color: black;
 }
-.menu a:active{
+.my__interests a:active{
     text-decoration-color: red;
     color: blue;
 }
-.menu a:hover{
+.my__interests a:hover{
 
     text-decoration-color: red;
     text-decoration: line-through;
