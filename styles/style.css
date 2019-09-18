@@ -1,0 +1,99 @@
+body{
+    margin: 0 auto;
+    font-family: futur;
+}
+.back_index{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-image: url("../images/woman-438434_1920.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+header{
+    position: sticky;
+    margin: 0 auto;
+    margin-bottom: 160px;
+    font-family: futur;
+    max-width: 1440px;
+    max-height: 115px;
+
+    line-height: 22px;
+    font-size: 17px;
+}
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    border-bottom: 1px solid #F1F3F2;
+}
+.logo__index{
+    margin-left: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.menu ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+.menu a{
+    text-decoration-color: red;
+    color: black;
+}
+.menu a:active{
+    text-decoration-color: red;
+    color: blue;
+}
+.menu a:hover{
+
+    text-decoration-color: red;
+    text-decoration: line-through;
+
+}
+.main__info{
+    margin: 0 auto;
+    margin-left: 5%;
+    max-width: 1440px;
+    margin-bottom: 240px;
+}
+.greetings{
+    font-family: playfair;
+    font-size: 68px;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+.greetings__comments p{
+    font-family: futur;
+    max-width: 30%;
+    font-size: 18px;
+}
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.my__info{
+    font-family: futur;
+    margin: 0 auto;
+
+}
+.my__info ul{
+    display: flex;
+    justify-content: center;
+}
+.my__info ul li{
+    line-height: 22px;
+    font-size: 18px;
+    margin: 0 35px;
+    color: #494949;
+    list-style-type: disc;
+}
