@@ -12,7 +12,6 @@ body{
 header{
     position: sticky;
     margin: 0 auto;
-    margin-bottom: 160px;
     font-family: futur;
     max-width: 1440px;
     max-height: 115px;
@@ -69,22 +68,60 @@ header{
     text-decoration: line-through;
 
 }
-.main__info{
+
+.main__info {
     margin: 0 auto;
-    margin-left: 5%;
-    max-width: 1440px;
-    margin-bottom: 240px;
+    margin-bottom: 50px;
+    max-width: 1024px;
 }
-.greetings{
-    font-family: playfair;
-    font-size: 68px;
-    max-width: 50%;
+
+.summary{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
     margin-bottom: 30px;
 }
-.greetings__comments p{
+.summary__comments p{
+    text-indent: 40px;
     font-family: futur;
-    max-width: 30%;
+    font-size: 24px;
+    color: #494949;
+}
+.summary__comments p{
+    margin-bottom: 50px;
+}
+
+.skills__title {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+}
+.skills__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.skills__wrapper ul{
+    padding-top: 60px;
+}
+.skills__wrapper ul li {
     font-size: 18px;
+    color: #494949;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+.skills__wrapper ul li:nth-child(1) {
+    list-style-type: none;
+}
+.skills__wrapper ul li p {
+    font-size: 20px;
+    width: 90%;
+}
+.skills-stack-img {
+    display: flex;
+    justify-content: center;
+}
+.skills-stack-img img {
+    max-width: 500px;
 }
 footer{
     max-width: 1440px;
