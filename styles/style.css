@@ -68,27 +68,32 @@ header{
     text-decoration: line-through;
 
 }
-
+main {
+    background-color: ghostwhite;
+}
 .main__info {
     margin: 0 auto;
-    margin-bottom: 50px;
+    padding: 0 20px;
+    margin-bottom: 30px;
     max-width: 1024px;
 }
 
-.summary{
+.summary {
     display: flex;
     justify-content: center;
     font-size: 60px;
     margin-bottom: 30px;
 }
-.summary__comments p{
-    text-indent: 40px;
+.summary__comments p { 
     font-family: futur;
     font-size: 24px;
     color: #494949;
 }
-.summary__comments p{
+.summary__comments p {
     margin-bottom: 50px;
+}
+.eng-level {
+    color: red;
 }
 
 .skills__title {
@@ -100,6 +105,7 @@ header{
     display: flex;
     justify-content: space-around;
 }
+
 .skills__wrapper ul{
     padding-top: 60px;
 }
@@ -123,6 +129,7 @@ header{
 .skills-stack-img img {
     max-width: 500px;
 }
+
 footer{
     max-width: 1440px;
     margin: 0 auto;
@@ -143,4 +150,23 @@ footer{
     margin: 0 35px;
     color: #494949;
     list-style-type: disc;
+}
+
+@media screen and (max-width: 900px) {
+    .skills__wrapper {
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+      }
+      .skills__wrapper ul li p {
+          width: 100%;
+      }
+}
+@media screen and (max-width: 950px) {
+    .summary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
