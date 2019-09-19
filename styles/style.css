@@ -1,0 +1,172 @@
+body{
+    margin: 0 auto;
+    font-family: futur;
+}
+.back_index{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-image: url("../images/woman-438434_1920.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+header{
+    position: sticky;
+    margin: 0 auto;
+    font-family: futur;
+    max-width: 1440px;
+    max-height: 115px;
+    color:#494949;
+    line-height: 22px;
+    font-size: 17px;
+}
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    border-bottom: 1px solid #F1F3F2;
+}
+.logo-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-size: 26px;
+}
+.logo-arroy {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.my__interests{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.my__interests ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.my__interests ul li {
+    padding: 10px;
+    font-size: 16px;
+}
+.my__interests a{
+    text-decoration-color: red;
+    color: black;
+}
+.my__interests a:active{
+    text-decoration-color: red;
+    color: blue;
+}
+.my__interests a:hover{
+
+    text-decoration-color: red;
+    text-decoration: line-through;
+
+}
+main {
+    background-color: ghostwhite;
+}
+.main__info {
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    max-width: 1024px;
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.summary__comments p { 
+    font-family: futur;
+    font-size: 24px;
+    color: #494949;
+}
+.summary__comments p {
+    margin-bottom: 50px;
+}
+.eng-level {
+    color: red;
+}
+
+.skills__title {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+}
+.skills__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__wrapper ul{
+    padding-top: 60px;
+}
+.skills__wrapper ul li {
+    font-size: 18px;
+    color: #494949;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+.skills__wrapper ul li:nth-child(1) {
+    list-style-type: none;
+}
+.skills__wrapper ul li p {
+    font-size: 20px;
+    width: 90%;
+}
+.skills-stack-img {
+    display: flex;
+    justify-content: center;
+}
+.skills-stack-img img {
+    max-width: 500px;
+}
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.my__info{
+    font-family: futur;
+    margin: 0 auto;
+
+}
+.my__info ul{
+    display: flex;
+    justify-content: center;
+}
+.my__info ul li{
+    line-height: 22px;
+    font-size: 18px;
+    margin: 0 35px;
+    color: #494949;
+    list-style-type: disc;
+}
+
+@media screen and (max-width: 900px) {
+    .skills__wrapper {
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+      }
+      .skills__wrapper ul li p {
+          width: 100%;
+      }
+}
+@media screen and (max-width: 950px) {
+    .summary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
