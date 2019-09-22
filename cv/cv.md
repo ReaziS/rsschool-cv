@@ -1,6 +1,7 @@
 1. Konstantsin Kovaliov
 
-2. - Skype kost9n1331;
+2. My contact
+   - Skype kost9n1331;
    - Discord ReaziS#4932;
    - Phone +375(29) 183-07-02;
    - E-mail kost9n98@yandex.ru.
