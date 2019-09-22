@@ -1,1 +1,1 @@
-# rsschool-cv
+[mycv] https://reazis.github.io/rsschool-cv/cv/cv.md
